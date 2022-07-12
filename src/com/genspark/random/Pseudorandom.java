@@ -17,6 +17,11 @@ public class Pseudorandom {
 
     private static final Random RANDOM = new Random();
 
+    // TODO: Write tests for this
+    public CoinSide flipCoin() {
+        return CoinSide.HEADS;
+    }
+
     public static char nextASCIIChar() {
         return (char) (' ' + RANDOM.nextInt(PRINTABLE_ASCII_SPAN));
     }

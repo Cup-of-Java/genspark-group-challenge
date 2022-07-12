@@ -65,4 +65,10 @@ class PseudorandomTest {
         }
     }
 
+    @Test
+    void testNextASCIICharSeq() {
+        System.out.println("nextASCIICharSeq");
+        fail("Haven't written test yet");
+    }
+
 }
