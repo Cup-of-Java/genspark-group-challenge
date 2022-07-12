@@ -21,9 +21,12 @@ public class Pseudorandom {
         return (char) (' ' + RANDOM.nextInt(PRINTABLE_ASCII_SPAN));
     }
 
-    // TODO: Write tests for this
     public static String nextASCIICharSeq(int length) {
-        return "NOT IMPLEMENTED YET";
+        char[] characters = new char[length];
+        for (int i = 0; i < length; i++) {
+            characters[i] = 'a';
+        }
+        return new String(characters);
     }
 
     // TODO: Write tests for this
